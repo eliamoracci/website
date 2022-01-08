@@ -7,11 +7,11 @@ subtitle: <a href='#'>PhD Candidate in Economics</a> @European University Instit
 profile:
   align: right
   image: prof_pic.JPG
-  address: 
+  address: >
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Still building this website.
+_Still building this website._
