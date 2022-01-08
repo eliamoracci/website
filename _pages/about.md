@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Candidate in Economics</a> @European University Institute
+subtitle: <i class="fa fa-envelope main-name"></i> <a href="mailto:elia.moracci@eui.eu" title="My Email">elia.moracci@eui.eu</a>
 
 profile:
   align: right
