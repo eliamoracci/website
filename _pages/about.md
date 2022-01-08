@@ -7,7 +7,7 @@ subtitle: <a href='#'>PhD Candidate in Economics</a> @European University Instit
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: 
     <p> Villa la Fonte </p>
     <p> Via delle Fontanelle, 18 </p>
     <p> 50014 Fiesole, FI, Italy </p>
