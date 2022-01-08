@@ -8,6 +8,9 @@ profile:
   align: right
   image: prof_pic.JPG
   address: >
+    Villa la Fonte
+    Via delle Fontanelle, 18
+    50014 Fiesole, FI, Italy
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
