@@ -6,7 +6,7 @@ subtitle: <a href='#'>PhD Candidate in Economics</a> @European University Instit
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   address: 
 
 news: true  # includes a list of news items
