@@ -16,3 +16,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a third-year PhD student in Economics at the EUI. I mainly work on family economics and macro, but I'm also interested in the economics of education and in the economics of payments.
+
+_Still building this website._
