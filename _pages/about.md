@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  <a> PhD Student in Economics</a>
+subtitle:  <a>PhD Student in Economics</a>
 
 profile:
   align: right
