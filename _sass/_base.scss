@@ -14,11 +14,12 @@ hr {
 
 a, table.table a {
   color: var(--global-theme-color);
+  font-weight: 400;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
   }
-  &:hover:after :not(.nav-item.dropdown) {
+  &:hover:after {
     width: 100%;
   }
 }
