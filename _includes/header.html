@@ -36,8 +36,9 @@
               {% if site.blog_name %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">blog
-                  {%- if page.title == "blog" -%}
+                <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+                    blog
+                  {% if page.title == "blog" %}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -76,6 +77,13 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+                <!-- CV -->
+	  <li id="show-cv" class="nav-item">
+          <a class="nav-link" target="_blank" href="{{ '/assets/pdf/CV_Moracci.pdf' | prepend: site.baseurl | prepend: site.url }}">
+            CV
+          </a>
+      </li>
+                
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
