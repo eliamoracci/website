@@ -16,6 +16,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD student in Economics at the EUI. I mainly work on family economics and macro, but I'm also interested in the economics of education and in the economics of payments.
+I am a third-year PhD student in Economics at the EUI. I mainly work on family economics and macro, but I'm also interested in education/labor and in the economics of payments.
 
-_Still building this website._
+Here, I will post updates on my research projects.
+
+**Ongoing research projects**
+ - Youth emancipation and labor market outcomes.
+ - The economics of grading systems.
+ - Payment choices and cash management.
