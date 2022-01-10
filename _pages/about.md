@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i class="fa fa-envelope main-name"></i> <a href="mailto:elia.moracci@eui.eu" title="Send email">elia.moracci@eui.eu</a>
+subtitle:  <a href="mailto:elia.moracci@eui.eu" title="Send email"><i class="fa fa-envelope main-name"></i> elia.moracci@eui.eu</a>
 
 profile:
   align: right
