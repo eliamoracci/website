@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a third-year PhD student in Economics at the EUI. I mainly work on family economics and macro, but I'm also interested in education/labor and in the economics of payments.
 
-Here, I will post updates on my research projects.
+Here, I will post updates on my research projects and my papers' drafts.
 
 **Ongoing research projects**
  - Youth emancipation and labor market outcomes.
