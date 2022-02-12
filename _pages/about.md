@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD student in Economics at the EUI. I mainly work on family economics and macro, but I'm also interested in education/labor and in the economics of payments.
+I am a third-year PhD student at the <a target="_blank" href="https://www.eui.eu/en/academic-units/department-of-economics">EUI Department of Economics</a>. I mainly work on family economics and macro, but I'm also interested in education/labor and in the economics of payments.
 
 Here, I will post updates on my research projects and my papers' drafts.
 
