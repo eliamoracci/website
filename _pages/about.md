@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:  <a target="_blank" href="https://www.eui.eu/people?people%5Bmenu%5D%5Bict.Affiliations.Name%5D=Department%20of%20Economics&people%5Bmenu%5D%5Bict.Affiliations.Role%5D=Researcher&people%5Bmenu%5D%5Bict.EuiYearJoined%5D=2019">PhD Student in Economics</a> • <a target="_blank" href="https://www.eui.eu/en/home">European University Institute</a>
 
