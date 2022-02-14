@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
-description: Things I'm working on.
-nav: true
+description: 
+nav: false
 horizontal: false
 ---
 
