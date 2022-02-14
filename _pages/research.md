@@ -10,9 +10,8 @@ horizontal: false
 ### Economics of payments
 
 <details>
-<summary>
-  <h1 style="display:inline-block"> Cash Management and Payment Choices Revisited </h1>
-</summary>  
+  
+<summary><strong><font size="+12">Cash Management and Payment Choices Revisited </font></strong></summary>  
   
 <br>
   
