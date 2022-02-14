@@ -11,7 +11,7 @@ horizontal: false
 
 <details>
   
-<summary><strong><font size="+12">Cash Management and Payment Choices Revisited </font></strong></summary>  
+<summary><strong><font size="+2">Cash Management and Payment Choices Revisited </font></strong></summary>  
   
 <br>
   
