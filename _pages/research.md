@@ -1,3 +1,13 @@
+---
+layout: page
+title: research
+permalink: /research/
+description: Things I'm working on.
+nav: true
+horizontal: false
+---
+
+
 # Work in progress
 
 ## Economics of payments
