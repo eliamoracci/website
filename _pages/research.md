@@ -1,20 +1,17 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: Things I'm working on.
 nav: true
 horizontal: false
 ---
 
-
-# Work in progress
-
-## Economics of payments
+### Economics of payments
 
 <details>
 <summary>
-  <strong><large>Cash Management and Payment Choices Revisited</large></strong> 
+  <h1 style="display:inline-block"> Cash Management and Payment Choices Revisited </h1>
 </summary>  
   
 <br>
