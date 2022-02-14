@@ -129,7 +129,6 @@ kramdown:
 
 # Includes & excludes
 include: '_pages/about.md'
-include: '_pages/research.md'
 exclude:
   - bin
   - Gemfile
