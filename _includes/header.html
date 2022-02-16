@@ -4,9 +4,9 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.title != "about" -%}
+          {% if page.title != "About" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}<span class="font-weight-bold" ><font color="#004676"> {{ site.first_name }}</font></span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -26,9 +26,9 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">about
-                  {%- if page.title == "about" -%}
+              <li class="nav-item {% if page.title == 'About' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/' | relative_url }}">About
+                  {%- if page.title == "About" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -80,7 +80,7 @@
               <!-- CV -->
 	      <li id="show-cv" class="nav-item">
 	      <a class="nav-link" target="_blank" href="{{ '/assets/pdf/CV_Moracci.pdf' | prepend: site.baseurl | prepend: site.url }}">
-	        cv
+	        CV
 	      </a>
 	      </li>
 

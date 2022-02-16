@@ -16,7 +16,7 @@ a, table.table a {
   color: var(--global-theme-color);
   font-weight: 400;
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
   &:hover:after {
@@ -126,15 +126,18 @@ blockquote {
     }
 }
 .navbar.navbar-light {
+  font-weight: 600;
   a {
     &:hover {
       text-decoration: none;
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    font-weight: 400;
+    color: var(--global-theme-color);
   }
   .navbar-nav .nav-item .nav-link {
+    font-weight: 300;
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
@@ -142,7 +145,7 @@ blockquote {
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      font-weight: bolder;
+      font-weight: 700;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
@@ -155,11 +158,11 @@ blockquote {
     a {
       i::before {
         color: var(--global-theme-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-text-color);
+          color: var(--global-hover-color);
         }
       }
     }
@@ -206,11 +209,11 @@ blockquote {
 
 .news table td {
   font-size: 1rem;
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
 }
 
 .news table th {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
 }
 
 // Social (bottom)
