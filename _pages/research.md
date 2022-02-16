@@ -11,8 +11,7 @@ horizontal: false
 <details>
 <summary>
 <strong>Cash Management and Payment Choices Revisited </strong>
-  
-{% include button.html url="http://www.google.com" %}
+
   </summary>  
    
 <br>
