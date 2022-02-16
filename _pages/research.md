@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: page
 title: research
 permalink: /research/
 description:
@@ -10,9 +10,11 @@ horizontal: false
 ### Work in progress
 <details>
 <summary>
-<strong>Cash Management and Payment Choices Revisited </strong>
-<a target="_blank" href="{{ '/assets/pdf/cash_management_and_payment_choices_revisited_draft.pdf' | prepend: site.baseurl | prepend: site.url }}">Paper</a>
-  </summary>  
+<strong>Cash Management and Payment Choices Revisited </strong> <a href="{{ cash_management_and_payment_choices_revisited_draft.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+</summary>  
+
+  
+
    
 <br>
   
