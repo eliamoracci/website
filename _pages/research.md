@@ -7,15 +7,18 @@ nav: true
 horizontal: false
 ---
 
-### Economics of payments
-
+### Work in progress
 <details>
+<summary>
+<strong>Cash Management and Payment Choices Revisited </strong>
   
-<summary><strong><font size="+2">Cash Management and Payment Choices Revisited </font></strong></summary>  
-  
+{% include button.html url="http://www.google.com" %}
+  </summary>  
+   
 <br>
   
-Exploiting transaction-level microdata for the Euro Area (2016-2019), I show that existing models of payment choice and cash management fail to rationalize relevant features of observed payment behavior. By combining cash/cashless choices at points of sale and survey questionnaires, I show that: i) payment choices and cash management should be modeled as joint decisions; ii) both cash holdings and transaction sizes are key determinants of payment behavior; iii) imperfect cashless acceptance influences both cash management and payment patterns. I present a dynamic cash management model with a cash/cashless choice, building on a standard Baumol-Tobin framework augmented with elements from Whitesell (1989), Alvarez and Lippi (2017) and completely novel features. I illustrate that cashless usage can be optimal even when cash holdings are enough to settle a transaction, if cashless payments are <i>cheaper</i> than ATM withdrawals as cash management tools. The model's payment choice policies can rationalize observed choices at POS that earlier studies could not account for. After calibrating the model to qualitatively match cross-country heterogeneity in payment and cash management patterns, I discuss possible extensions which would allow for a quantitative analysis.
+Exploiting transaction-level microdata from European payment diaries, I show that existing models of payment choice and cash management fail to capture relevant features of the data. I build a novel, dynamic model of cash management with a payment method choice and lumpy expenditures which rationalizes two key characteristics of payment behavior: i) consumers do not choose among cash and cards based on a threshold transaction size; ii) cashless methods are sometimes employed even if cash on hand is sufficient. I show that, as long as cashless payments are cheaper than ATM withdrawals, agents may find it optimal to use their cards even when they have sufficient cash on hand, in order to keep cash holdings close to their optimal levels. The model's payment choice policies can rationalize observed choices that earlier studies could not account for. After calibrating the model to qualitatively match cross-country heterogeneity in payment and cash management patterns, I discuss possible extensions which would allow for a quantitative analysis.
+</br>
 </details>
 
 ---
