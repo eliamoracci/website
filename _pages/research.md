@@ -11,7 +11,7 @@ horizontal: false
 <details>
 <summary>
 <strong>Cash Management and Payment Choices Revisited </strong>
-<a target="_blank" href="{{ '/assets/pdf/cash_management_and_payment_choices_revisited_draft.pdf' | prepend: site.baseurl | prepend: site.url }}">
+<a target="_blank" href="{{ '/assets/pdf/cash_management_and_payment_choices_revisited_draft.pdf' | prepend: site.baseurl | prepend: site.url }}">Paper</a>
   </summary>  
    
 <br>
