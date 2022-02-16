@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /research/
 description: ciao
-nav: false
+nav: true
 horizontal: false
 ---
 
