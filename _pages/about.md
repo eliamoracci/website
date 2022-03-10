@@ -16,16 +16,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<p style="text-align:justify">
 Welcome to my website! I am a third-year PhD student at the <a target="_blank" href="https://www.eui.eu/en/academic-units/department-of-economics">EUI Department of Economics</a> in Florence, Italy. My thesis advisors are <a target="_blank" href="https://www.eui.eu/people?id=russell-cooper">Russell Cooper</a> and <a target="_blank" href="https://www.eui.eu/people?id=andrea-ichino">Andrea Ichino</a>.
 <br>
 <br>
   <i>Research interests:</i> Most of my research lies at the intersection between family economics and macroeconomics, with a focus on parent-child interaction and youth emancipation. I'm also interested in education/labor and in the economics of payments.
 <br>
 <br>
-I hold a MSc from <a target="_blank" href="https://economiaefinanza.luiss.it/en">LUISS University</a> and <a target="_blank" href="http://www.eief.it/eief/">EIEF</a>, where I attended the <a target="_blank" href="http://http://www.romemaster.it/">RoME Masters in Economics</a>.
+I hold a MSc from <a target="_blank" href="https://economiaefinanza.luiss.it/en">LUISS University</a> and <a target="_blank" href="http://www.eief.it/eief/">EIEF</a>, where I attended the <a target="_blank" href="http://www.romemaster.it/">RoME Masters in Economics</a>.
 <br>
 <br>
 Here, I will post updates on my research projects and my papers' drafts.
-</p>
+
 
