@@ -128,7 +128,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages/about.md' , '_pages/research.md']
+include: ['_pages/about.md' , '_pages/research.md', '_pages/teaching.md']
 exclude:
   - bin
   - Gemfile
@@ -160,7 +160,7 @@ defaults:
   - scope:
       path:            "assets/**/*.*"
     values:
-      sitemap:         false
+      sitemap:         true
 # Extras
 github: [metadata]
 
@@ -172,8 +172,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Moracci
+  first_name: Elia
 
   style: apa
   locale: en

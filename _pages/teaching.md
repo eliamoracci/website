@@ -1,11 +1,16 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
+horizontal: false
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## **Teaching assistantships**
 
-Organize your courses by years, topics, or universities, however you like!
+##### **Mathematics for Economics, EUI Ph.D. Core Course • TA to Prof. Antonio Villanacci**
+Background course in Mathematics for Economics followed by first-year Ph.D. students in Economics at the European University Institute,covering linear algebra, topology in metric spaces, differential calculus in Euclidean spaces, nonlinear (static) optimization and dynamic programming. As a TA, I drafted and corrected problem sets on each topic, and I held weekly exercise classes. [**(Syllabus)**](/assets/pdf/math-syllabus.pdf) 
++ **Academic Year 2022-23, Fall Term**
++ **Academic Year 2021-22, Fall Term** [_(Teaching evaluations)_](/assets/pdf/feedback-math-2021.pdf)
++ **Academic Year 2020-21, Fall Term** [_(Teaching evaluations)_](/assets/pdf/feedback-math-2020.pdf)

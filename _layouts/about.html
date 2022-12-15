@@ -7,7 +7,7 @@ layout: default
         <header class="post-header">
           <h1 class="post-title">
            {% if site.title == "blank" -%}
-                <span class="main-name font-weight-bold">{{ site.first_name }}</span> <span class="main-name font-weight-lighter">{{ site.last_name }}</span>
+                <span class="main-name font-weight-bold">{{ site.first_name }}</span> <span class="main-name font-weight-normal">{{ site.last_name }}</span>
            {%- else -%}
                 {{ site.title }}
            {%- endif %}
@@ -22,7 +22,7 @@ layout: default
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
               {% include figure.html 
               path=profile_image_path 
-              class="img-fluid rounded z-depth-3" -%}
+              class="img-fluid z-dept-1 rounded" -%}
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
@@ -31,8 +31,7 @@ layout: default
             {%- endif %}
           </div>
           {%- endif %}
-
-          <div class="clearfix m-r-xl">
+          <div class="clearfix">
             {{ content }}
           </div>
 
