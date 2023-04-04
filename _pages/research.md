@@ -18,7 +18,7 @@ Exploiting unique, previously unexplored transaction-level microdata from two EC
 
 ##### **Fleeing the Crowded Nest? Sibship Size and Leaving the Parental Home** <small> (draft coming soon) </small>
 
-***with Adriano de Falco and Alberto Venturin***
+***with <a target="_blank" href="https://www.adrianodefalco.com">Adriano de Falco</a> and <a target="_blank" href="https://albertoventurin.github.io">Alberto Venturin</a>***
 
 <p style="text-align: justify;">
 In most advanced economies, individuals born in the 1980s and 1990s grew up in considerably smaller families compared to those from previous cohorts; during their early adulthood, these individuals were much more likely to still live with their parents. Did the decline in fertility play a role in the surge of intergenerational co-residence observed in recent decades? In this paper, we investigate whether young adults with less siblings face lower privacy costs in cohabiting with their parents, compared to those that grew up in crowded nests, thereby moving out later. Exploiting data from the Survey of Health, Ageing and Retirement in Europe and the Generations and Gender Survey, we identify the causal effect of sibship size on the timing of home-leaving, exploiting random variation induced by twin births. Preliminary IV estimates show that having an additional sibling speeds up the home-leaving process, consistently with the <em>crowded nest hypothesis</em>.
