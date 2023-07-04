@@ -18,8 +18,13 @@ social: false  # includes social icons at the bottom of the page
 
 **Welcome to my website!**
 
-I am a fourth-year PhD student at the [**EUI Department of Economics**](https://www.eui.eu/en/academic-units/department-of-economics) in Florence, Italy. My thesis advisors are [**Russell Cooper**](https://www.eui.eu/people?id=russell-cooper) and [**Andrea Ichino**](https://www.eui.eu/people?id=andrea-ichino).
+<p style="text-align: justify;">
+I am a fourth-year PhD student at the <a target="_blank" href="https://www.eui.eu/en/academic-units/department-of-economics">EUI Department of Economics</a> in Florence, Italy. My thesis advisors are <a target="_blank" href="https://www.eui.eu/people?id=russell-cooper">Russell Cooper</a> and <a target="_blank" href="https://www.eui.eu/people?id=andrea-ichino">Andrea Ichino</a>. I am currently also a Post-Doc Fellow at the <a target="_blank" href="https://economiaefinanza.luiss.it/">Department of Economics and Finance</a> of LUISS, in Rome. </p>
 
-I hold a MRes from [**EUI**](https://www.eui.eu/en/academic-units/department-of-economics) and a MSc from [**LUISS**](https://economiaefinanza.luiss.it/en) and the [**Einaudi Insitute for Economics and Finance**](https://www.eief.it/eief/), where I attended the [**RoME Masters in Economics**](http://www.romemaster.it/).
+<p style="text-align: justify;">
+I hold a MRes from EUI and a MSc from LUISS University and the Einaudi Insitute for Economics and Finance, where I attended the  <a target="_blank" href="http://www.romemaster.it/">RoME Masters in Economics</a>. </p>
 
-I am interested in **structural work** that combines data and theory. Part of my research is in **monetary economics**:  I study the interaction between the acceptance of payment methods and the adoption and usage of cashless payments by households, trying to determine what drives the persistence of cash usage across countries. I also work at the intersection between **family economics and macroeconomics**, studying the aggregate implications of within-family decisions, focusing on intergenerational relationships, fertility, and education choices. Here, I will post updates on my research projects and my papers' drafts.
+<p style="text-align: justify;">
+I am interested in <strong>structural work</strong> that combines data and theory. Part of my research is in <strong>monetary economics</strong>:  I study the interaction between the acceptance of payment methods and the adoption and usage of cashless payments by households, trying to determine what drives the persistence of cash usage across countries. I also work at the intersection between <strong>family economics and macroeconomics</strong>, studying the aggregate implications of within-family decisions, focusing on intergenerational relationships, fertility, and education choices. </p>
+
+<p style="text-align: justify;">Here, I will post updates on my research projects and my papers' drafts.</p>

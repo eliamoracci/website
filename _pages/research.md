@@ -29,8 +29,9 @@ In most advanced economies, individuals born in the 1980s and 1990s grew up in c
 
 - - -
 
-##### **Payment Choices and Cash Management with Endogenous Merchant Acceptance**
+##### **Payment choices and cash demand in an equilibrium model of card acceptance**
 ***with Silvio Sorbera***
+<p style="text-align: justify;"> We study theoretically the acceptance and usage of cashless payments, as well as its interaction with the transactions demand for cash, in an economy where buyers and sellers meet in order to exchange goods and services. Buyers decide how much cash to hold, and they have the option to a cashless payment device to settle purchases; sellers decide whether to accept cash payments only or to allow their customers to use cards. </p>
+
 
 ##### **Intergenerational Coresidence over the Life-Cycle**
-<p style="text-align: justify;"> Standard macroeconomic models assume that when adult life begins, individuals are already a single decision unit, abstracting from the decision to leave the parental home and achieve independence. Recent surges in intergenerational coresidence rates across the world show that this model has become an increasingly imperfect description of reality. In this paper, I ask whether co-residence between parents and children and the timing of home-leaving are relevant for macroeconomics. Using a rich retrospective dataset (the Survey of Health, Ageing and Retirement in Europe) I empirically investigate the determinants causes of moving out, staying home and coming back decisions, as well as their consequences on life-cycle outcomes of children and parents. I plan to assess the aggregate implications of leaving home patterns using a structural quantitative model. </p>
