@@ -31,7 +31,7 @@ In most advanced economies, individuals born in the 1980s and 1990s grew up in c
 
 ##### **Payment Choices and Cash Demand in an Equilibrium model of Card Acceptance**
 ***with Silvio Sorbera***
-<p style="text-align: justify;"> We study theoretically the acceptance and usage of cashless payments, as well as its interaction with the transactions demand for cash, in an economy where buyers and sellers meet in order to exchange goods and services. Buyers decide how much cash to hold, and they have the option to a cashless payment device to settle purchases; sellers decide whether to accept cash payments only or to allow their customers to use cards. </p>
+<p style="text-align: justify;"> We study theoretically the acceptance and usage of cashless payments, as well as its interaction with the transactions demand for cash, in an economy where buyers and sellers meet in order to exchange goods and services. Buyers decide how much cash to hold, and they have the option to use a cashless payment device to settle purchases; sellers decide whether to accept cash payments only or to allow their customers to use cards. </p>
 
 
 ##### **Intergenerational Coresidence over the Life-Cycle**
