@@ -12,7 +12,11 @@
       "Bash(powershell.exe -NoProfile -Command \"Stop-Process -Id 14520,24884 -Force\")",
       "Bash(gh api:*)",
       "WebSearch",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git push:*)",
+      "WebFetch(domain:www.cambridge.org)",
+      "WebFetch(domain:labdisia.disia.unifi.it)",
+      "WebFetch(domain:ideas.repec.org)"
     ]
   }
 }
