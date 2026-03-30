@@ -467,6 +467,14 @@ p {
     align-items: flex-start;
   }
 
+  .paper-dot {
+    display: none;
+  }
+
+  .paper-journal {
+    display: block;
+  }
+
   .paper-meta-with-toggle .showmore-btn {
     margin-left: 0;
     margin-top: 0.3rem;
