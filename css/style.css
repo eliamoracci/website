@@ -132,7 +132,7 @@ p {
 
 .nav-links a {
   font-weight: 400;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--color-light);
   text-decoration: none;
   padding-bottom: 3px;
@@ -166,7 +166,7 @@ p {
 .home-grid {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .home-bio {
@@ -211,9 +211,42 @@ p {
 
 .social-icons {
   display: flex;
-  gap: 0.8rem;
-  justify-content: center;
+  gap: 0.5rem;
+  justify-content: flex-start;
   margin-top: 0.6rem;
+}
+
+.home-sidebar .social-icons {
+  justify-content: center;
+}
+
+.news-box {
+  margin-top: 1.2rem;
+  padding: 1rem 1.2rem;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.news-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+.news-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news-box li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  margin-bottom: 0.4rem;
 }
 
 .social-icons a {
