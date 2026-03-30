@@ -1,0 +1,273 @@
+/* === Design Tokens === */
+:root {
+  --color-text: #242124;
+  --color-heading: #222222;
+  --color-link: #1a5276;
+  --color-link-hover: #0d3b5e;
+  --color-light: #777777;
+  --color-border: #e0e0e0;
+  --color-bg: #ffffff;
+  --max-width: 1100px;
+  --font-main: 'EB Garamond', Georgia, serif;
+}
+
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--color-text);
+  background: var(--color-bg);
+  text-align: justify;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: var(--color-heading);
+  font-family: var(--font-main);
+  text-align: left;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* === Navigation === */
+.nav {
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: 1rem 2rem;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.nav-name {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-heading);
+  text-decoration: none;
+}
+
+.nav-name:hover {
+  color: var(--color-heading);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--color-text);
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+.nav-links a:hover {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  color: var(--color-link-hover);
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-link-hover);
+}
+
+/* === Layout === */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.content {
+  padding: 2.5rem 2.5rem 3rem;
+}
+
+/* === Home Page Grid === */
+.home-grid {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.home-bio {
+  flex: 65;
+}
+
+.home-photo {
+  flex: 35;
+}
+
+.home-photo img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 2px;
+  display: block;
+}
+
+.contacts {
+  margin-top: 1.5rem;
+}
+
+.contacts p {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--color-light);
+}
+
+.contacts a {
+  color: var(--color-link);
+}
+
+/* === Research Page === */
+.paper {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.paper:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-heading);
+  margin-bottom: 0.25rem;
+}
+
+.paper-meta {
+  font-size: 1rem;
+  color: var(--color-light);
+  margin-bottom: 0.25rem;
+}
+
+.paper-meta em {
+  font-style: italic;
+}
+
+.paper-links {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-links a {
+  margin-right: 0.8rem;
+}
+
+.paper-abstract {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-text);
+}
+
+.paper-abstract p {
+  margin-top: 0.5rem;
+}
+
+.award {
+  color: #b8860b;
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+
+/* === Teaching Page === */
+.teaching-entry {
+  margin-bottom: 1.8rem;
+}
+
+.teaching-entry h3 {
+  margin-bottom: 0.2rem;
+}
+
+.teaching-meta {
+  font-size: 0.92rem;
+  color: var(--color-light);
+  margin-bottom: 0.3rem;
+}
+
+/* === Discussions Page === */
+.placeholder-note {
+  color: var(--color-light);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* === Mobile === */
+@media (max-width: 640px) {
+  .nav {
+    padding: 0.8rem 1rem;
+  }
+
+  .nav .container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-grid {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .home-photo img {
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
