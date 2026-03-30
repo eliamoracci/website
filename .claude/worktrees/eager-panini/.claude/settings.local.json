@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(start \"\" \"C:\\\\Users\\\\eliam\\\\Documents\\\\GitHub\\\\eliamoracci.github.io\\\\index.html\")",
+      "WebFetch(domain:www.eliamoracci.com)",
+      "WebFetch(domain:sites.google.com)",
+      "Bash(python -m http.server:*)"
+    ]
+  }
+}

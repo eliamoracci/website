@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(start \"\" \"C:\\\\Users\\\\eliam\\\\Documents\\\\GitHub\\\\eliamoracci.github.io\\\\index.html\")",
+      "WebFetch(domain:www.eliamoracci.com)",
+      "WebFetch(domain:sites.google.com)",
+      "Bash(powershell -Command \"Remove-Item ''.git/index.lock'' -Force\")",
+      "Bash(powershell.exe -NoProfile -Command \"Get-Process | Where-Object {$_.Name -match ''git''} | Select-Object Id, Name\")",
+      "Bash(powershell.exe -NoProfile -Command \"Stop-Process -Id 17808,19400 -Force\")",
+      "Bash(powershell.exe -NoProfile -Command \"Get-Process | Where-Object {$_.Name -match ''git''} | Select-Object Id, Name, Path\")",
+      "Bash(powershell.exe -NoProfile -Command \"Stop-Process -Id 14520,24884 -Force\")",
+      "Bash(gh api:*)",
+      "WebSearch",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
