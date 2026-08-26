@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policy work — Elia Moracci</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+        {left: '\\[', right: '\\]', display: true},
+        {left: '\\(', right: '\\)', display: false}
+      ],
+      throwOnError: false
+    });"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="policy-page">
+
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav-name">Elia Moracci</a>
+      <button class="hamburger" onclick="this.classList.toggle('open'); document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="policy.html" class="active">Policy work</a></li>
+        <li><a href="discussions.html">Discussions</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="files/CV_Moracci_EN.pdf">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container content">
+    <h1>Policy work</h1>
+
+    <div class="paper policy-paper">
+      <h3 class="paper-title"><a href="https://www.bancaditalia.it/pubblicazioni/qef/2026-1051/index.html?com.dotmarketing.htmlpage.language=1">The implications of AI for monetary policy: a first assessment</a></h3>
+      <p class="paper-meta">with <a href="https://sites.google.com/site/luciesporesearch/">Lucia Esposito</a>, <a href="https://sites.google.com/site/elisaguglielminetti/home?authuser=0">Elisa Guglielminetti</a>, <a href="https://sites.google.com/view/andreapapetti">Andrea Papetti</a> and <a href="https://sites.google.com/view/massimilianopisani/home-page">Massimiliano Pisani</a><br>
+      <span class="paper-journal">Banca d&rsquo;Italia, <em>Questioni di Economia e Finanza (Occasional Papers)</em> No. 1051, July 2026</span></p>
+      <p class="paper-buttons">
+        <a href="https://www.bancaditalia.it/pubblicazioni/qef/2026-1051/QEF_1051_26.pdf?language_id=1" class="btn">Paper</a>
+        <button class="showmore-btn" onclick="this.closest('.paper').querySelector('.paper-abstract-toggle').classList.toggle('open'); this.textContent = this.textContent.trim() === '+ Show abstract' ? '− Hide abstract' : '+ Show abstract'">+ Show abstract</button>
+      </p>
+      <div class="paper-abstract-toggle">
+        <p class="paper-abstract"><strong>Abstract:</strong> This paper assesses the impact of artificial intelligence (AI) on monetary policy transmission and on central banks&rsquo; reaction functions. By speeding up routine and repetitive tasks through automation and accelerating the incorporation of incoming information into decision-making, AI may affect productivity, market structure and broader macroeconomic developments. AI may also increase macro-financial complexity and systemic vulnerabilities by amplifying interconnectedness, heightening operational and cyber risks, and reinforcing procyclical and herding dynamics in an environment characterized by faster and partly algorithmic decision-making. Central banks&rsquo; reaction functions will need to adapt to a setting marked by a different transmission mechanism, new uncertainty surrounding the natural rate of interest and tail risks. At the same time, AI could enhance the effectiveness of monetary policy by improving assessments of the macroeconomic outlook and the distribution of risks around it, as well as by strengthening monetary policy communication and the management of expectations.</p>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>

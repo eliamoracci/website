@@ -10,6 +10,7 @@ Plain HTML + CSS academic website for Elia Moracci, hosted on GitHub Pages at `e
 
 - `index.html` — Home (bio, photo, contacts)
 - `research.html` — Working papers & work in progress
+- `policy.html` — Policy publications
 - `discussions.html` — Conference discussions
 - `teaching.html` — Teaching positions
 - `css/style.css` — Single shared stylesheet
@@ -40,7 +41,7 @@ No build command needed. GitHub Pages serves the HTML directly.
 </div>
 ```
 
-**Nav bar** — duplicated across all four HTML files. When adding a new page, update `<a class="active">` in each file and add the nav link to all files.
+**Nav bar** — duplicated across all five HTML files. When adding a new page, update `<a class="active">` in each file and add the nav link to all files.
 
 **KaTeX** — already loaded via CDN in every page's `<head>`. Use `$...$` for inline math and `$$...$$` for display math anywhere in the HTML.
 

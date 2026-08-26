@@ -4,6 +4,11 @@
   --color-heading: #1a1a1a;
   --color-link: #4a6fa5;
   --color-link-hover: #2c4a7c;
+  --color-research: #004a93;
+  --color-policy: #9d2121;
+  --color-policy-hover: #751919;
+  --color-discussion: #475569;
+  --color-discussion-hover: #334155;
   --color-light: #888888;
   --color-border: #eaeaea;
   --color-bg: #f8f7f5;
@@ -299,6 +304,31 @@ p {
 }
 
 /* === Research Page === */
+.research-page {
+  --page-accent: var(--color-research);
+}
+
+.policy-page {
+  --page-accent: var(--color-policy);
+}
+
+.discussions-page {
+  --page-accent: var(--color-discussion);
+}
+
+.research-page .content > h1,
+.policy-page .content > h1,
+.discussions-page .content > h1 {
+  border-left: 4px solid var(--page-accent);
+  padding-left: 0.75rem;
+}
+
+.research-page .paper-meta,
+.policy-page .paper-meta,
+.discussions-page .paper-meta {
+  color: var(--color-heading);
+}
+
 .paper {
   padding: 1.3rem 1.5rem;
   border: 1px solid var(--color-border);
@@ -416,9 +446,34 @@ p {
   font-size: 0.92rem;
 }
 
+/* === Policy work page === */
+.policy-paper a {
+  color: var(--color-policy);
+}
+
+.policy-paper a:hover {
+  color: var(--color-policy-hover);
+}
+
+.policy-paper .btn {
+  color: #ffffff;
+  background: var(--color-policy);
+  border-color: var(--color-policy);
+}
+
+.policy-paper .btn:hover {
+  color: #ffffff;
+  background: var(--color-policy-hover);
+  border-color: var(--color-policy-hover);
+}
+
 /* === Teaching Page === */
 
 /* === Discussions Page === */
+.discussion-card .paper-title {
+  color: var(--color-discussion);
+}
+
 .discussion-card {
   display: flex;
   align-items: center;
@@ -436,6 +491,13 @@ p {
 .discussion-card > .btn {
   flex-shrink: 0;
   align-self: center;
+  background: var(--color-discussion);
+  border-color: var(--color-discussion);
+}
+
+.discussion-card > .btn:hover {
+  background: var(--color-discussion-hover);
+  border-color: var(--color-discussion-hover);
 }
 
 .placeholder-note {
