@@ -317,10 +317,17 @@ p {
 }
 
 .research-page .content > h1,
+.research-page .content > h2,
 .policy-page .content > h1,
 .discussions-page .content > h1 {
   border-left: 4px solid var(--page-accent);
   padding-left: 0.75rem;
+}
+
+.research-page .content > h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .research-page .paper-meta,
