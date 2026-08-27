@@ -403,11 +403,13 @@ p {
   display: inline-block;
   font-size: 0.82rem;
   padding: 0.3rem 0.8rem;
-  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
   border-radius: 3px;
   color: #ffffff;
   background: #004a93;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.14);
   transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   line-height: 1.4;
 }
@@ -415,8 +417,15 @@ p {
 .btn:hover {
   background: #003670;
   color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
   text-decoration: none;
+}
+
+.research-page .btn,
+.policy-page .btn,
+.discussions-page .btn,
+.teaching-page .btn {
+  border: 0;
 }
 
 .showmore-btn {
